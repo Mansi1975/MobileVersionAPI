@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.sqlite3-journal
+*.py~ 
+db.sqlite3
+
+# Media
+/media/
+/staticfiles/
+/static_root/
+/media_root/
+
+# Environments
+.env
+.env.*  
+venv/
+ENV/
+env/
+.venv/
+.venv*/  
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Migrations (optional - only if you want to exclude auto-generated migrations)
+**/migrations/*.py
+!**/migrations/__init__.py
+**/migrations/*.pyc
+
+# Node/npm (in case you're using JS frontend too)
+node_modules/
+npm-debug.log
+
+# Coverage/testing
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Build
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Git
+*.orig
